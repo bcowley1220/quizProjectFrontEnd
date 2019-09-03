@@ -1,0 +1,32 @@
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  height: 150px;
+  width: 45%;
+  border: solid black 1px;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 5px;
+}
+#nameWrapper {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+#name {
+  width: 200px;
+  border-radius: 15px;
+  padding: 5px;
+  text-align: center;
+}
+#submitMe {
+  width: 90.75%;
+  height: 25px;
+  border-radius: 15px;
+}
